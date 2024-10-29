@@ -1,0 +1,7 @@
+/db.sqlite3
+/gunicorn
+/gunicorn_config.py
+/nginx
+/scripts
+/task_app
+/userData.sh
