@@ -28,21 +28,18 @@ El objetivo de YUHU Backend es construir una API funcional para la gestión de t
 
 ## Endpoints y URLs
 
-- **URL Backend**: [http://18.116.26.70:8000/](http://18.116.26.70:8000/)
+
+- **URL Frontend**: [http://3.16.13.233/task](http://3.16.13.233/task)
+
+
+- **URL Backend**: [http://18.223.180.179/](http://18.223.180.179/)
 - **Documentación API**:
-  - [Swagger UI](http://18.116.26.70:8000/swagger/)
-  - [ReDoc UI](http://18.116.26.70:8000/redoc/)
-  - [Descargar esquema JSON (swagger.json)](http://18.116.26.70:8000/swagger.json)
-
-## Configuración y Ejecución
-
-Para desplegar YUHU Backend, asegúrate de que tu entorno tiene configuradas las siguientes dependencias y configuraciones:
-
-1. **AWS EC2**: Instancias para alojar el backend y el frontend.
-2. **Nginx**: Configurado como proxy reverso para gestionar solicitudes al servidor Gunicorn.
-3. **Gunicorn**: Servidor WSGI para ejecutar la aplicación Django.
-4. **Celery**: Configurado para manejo de tareas en segundo plano.
+  - [Swagger UI](http://18.223.180.179/swagger/)
+  - [ReDoc UI](http://18.223.180.179/redoc/)
+  - [Descargar esquema JSON (swagger.json)](http://18.223.180.179/swagger.json)
 
 ## Idioma de la Aplicación
 
 - **English**
+
+© Jesús Eduardo Robles Duana 
